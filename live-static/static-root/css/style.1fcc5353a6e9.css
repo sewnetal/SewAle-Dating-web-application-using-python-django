@@ -113,7 +113,7 @@ ul.header_user_info {
 i.user {
 	width: 17px;
 	height: 17px;
-	background: url(../images/img-sprite.png) no-repeat -1px -6px;
+	background: url("../images/img-sprite.9203fdacd07c.png") no-repeat -1px -6px;
 	float: left;
 }
 ul.header_user_info li.user_desc {
@@ -133,7 +133,7 @@ span.m_1{
 	color:#3a5778;
 }
 .banner{
-	background: url(../images/banner.jpg) no-repeat center top;
+	background: url("../images/banner.c25f81998851.jpg") no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -278,14 +278,14 @@ ul.apps li{
 i.app{
 	width:182px;
 	height:56px;
-	background:url(../images/app.png)no-repeat;
+	background:url("../images/app.d0c9938a6ff9.png")no-repeat;
 	display:inline-block;
 	margin: 0px 70px 0 0;
 }
 i.google{
 	width:182px;
 	height:56px;
-	background:url(../images/google.png)no-repeat;
+	background:url("../images/google.6b5dbed327af.png")no-repeat;
 	display:inline-block;
 }
 .btn3 {
@@ -348,7 +348,7 @@ i.google{
 .grid_3 span {
 	width:224px;
 	height:425px;
-	background: url(../images/phone.png)no-repeat;
+	background: url("../images/phone.46d4dece4b62.png")no-repeat;
 	display: block;
 	margin: 0 auto;
 }
@@ -391,7 +391,7 @@ ul.list1 li{
 i.heart{
 	width: 27px;
 	height: 27px;
-	background: url(../images/img-sprite.png)no-repeat -28px -1px;
+	background: url("../images/img-sprite.9203fdacd07c.png")no-repeat -28px -1px;
 	display: block;
 }
 i.heart:hover{
@@ -490,11 +490,11 @@ span.m_3{
 	top: 0;
 	bottom: 0;
 	padding:17px;
-	background: url(../images/img-sprite.png) no-repeat -68px 4px #3a5878;
+	background: url("../images/img-sprite.9203fdacd07c.png") no-repeat -68px 4px #3a5878;
 }
 .metro1:hover .selected::after,
 .metro1.focus .selected::after{
-	background:url(../images/img-sprite.png) no-repeat -68px 4px #d26b8b;
+	background:url("../images/img-sprite.9203fdacd07c.png") no-repeat -68px 4px #d26b8b;
 }
 /* DROP DOWN WRAPPER */
 .metro1 div{
@@ -643,7 +643,7 @@ span.m_3{
 i.search-icon{
 	width: 35px;
 	height: 35px;
-	background: url(../images/img-sprite.png)no-repeat -111px -6px;
+	background: url("../images/img-sprite.9203fdacd07c.png")no-repeat -111px -6px;
 	float: left;
 	margin: 15px 0px 0 10px;
 }
@@ -723,7 +723,7 @@ ul.footer_social li a i {
 	width: 30px;
 	height: 30px;
 	display: block;
-	background: url(../images/img-sprite.png)no-repeat;
+	background: url("../images/img-sprite.9203fdacd07c.png")no-repeat;
 }
 ul.footer_social li a i:hover{
 	opacity:0.8;
@@ -894,7 +894,7 @@ h4.recent{
 /*--about--*/
 .m_4, h2.m_7, h2.m_10{
 	padding-bottom: 23px;
-	background: url("../images/abg.png") no-repeat center bottom;
+	background: url("../images/abg.6bc24daf0b71.png") no-repeat center bottom;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.5em;
@@ -931,7 +931,7 @@ h4.recent{
 }
 h2.m_6{
 	padding-bottom: 23px;
-	background: url("../images/abg.png") no-repeat center bottom;
+	background: url("../images/abg.6bc24daf0b71.png") no-repeat center bottom;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.5em;
@@ -1317,7 +1317,7 @@ a.forgot {
 }
 .checkbox input + i:after {
 	content: '';
-	background: url("../images/tick1.png") no-repeat 1px 2px;
+	background: url("../images/tick1.af06be30b701.png") no-repeat 1px 2px;
 	top: -1px;
 	left: -1px;
 	width: 15px;
@@ -1565,7 +1565,7 @@ i.app {
 .grid_3 span {
 	width: 150px;
 	height: 288px;
-	background: url(../images/phone.png)no-repeat;
+	background: url("../images/phone.46d4dece4b62.png")no-repeat;
 	display: inline-block;
 	background-size: 90%;
 }
@@ -1713,13 +1713,13 @@ ul.button {
 i.app {
 	width:100px;
 	height: 35px;
-	background: url(../images/app.png)no-repeat;
+	background: url("../images/app.d0c9938a6ff9.png")no-repeat;
 	background-size: 98%;
 }
 i.google {
 	width: 100px;
 	height: 35px;
-	background: url(../images/google.png)no-repeat;
+	background: url("../images/google.6b5dbed327af.png")no-repeat;
 	background-size: 98%;
 }
 .grid_2 h5 {

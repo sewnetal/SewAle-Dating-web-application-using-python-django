@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf21f21-70e4-452e-9f68-4e07432d28f4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flexslider.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live-static/static-root/css/layout.css" afterPath="$PROJECT_DIR$/live-static/static-root/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live-static/static-root/css/style.css" afterPath="$PROJECT_DIR$/live-static/static-root/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/layout.css" afterPath="$PROJECT_DIR$/static/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,32 +22,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/web/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/web/single.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="129" column="20" lean-forward="false" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-              <folding />
+              <folding>
+                <marker date="1491303119000" expanded="true" signature="1066:1411" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +39,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding />
+              <folding>
+                <marker date="1491304526000" expanded="true" signature="978:1178" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,17 +82,27 @@
         <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="5554" column="36" lean-forward="false" selection-start-line="5554" selection-start-column="36" selection-end-line="5554" selection-end-column="36" />
+              <caret line="5554" column="24" lean-forward="false" selection-start-line="5554" selection-start-column="24" selection-end-line="5554" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/flexslider.css">
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="44" column="116" lean-forward="true" selection-start-line="44" selection-start-column="116" selection-end-line="44" selection-end-column="116" />
+            <state relative-caret-position="218">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6188">
+              <caret line="1721" column="37" lean-forward="false" selection-start-line="1721" selection-start-column="37" selection-end-line="1721" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -116,6 +115,8 @@
               <caret line="175" column="6" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
               <folding>
                 <element signature="e#7589#7595#0#HTML" expanded="true" />
+                <marker date="1491299989000" expanded="true" signature="209:7967" ph="..." />
+                <marker date="1491299989000" expanded="true" signature="1160:7959" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,6 +129,7 @@
       <find>hell</find>
       <find>pagenate.png</find>
       <find>bg_direction_nav.png</find>
+      <find>body_bg_1.gif</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,6 +158,10 @@
         <option value="$PROJECT_DIR$/pages/templates/web/profiles.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/ideas/settings/production.py" />
+        <option value="$PROJECT_DIR$/static/css/flexslider.css" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/css/layout.css" />
       </list>
     </option>
   </component>
@@ -734,14 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1635">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/templates/dream-date/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -845,6 +843,8 @@
           <caret line="175" column="6" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
           <folding>
             <element signature="e#7589#7595#0#HTML" expanded="true" />
+            <marker date="1491299989000" expanded="true" signature="209:7967" ph="..." />
+            <marker date="1491299989000" expanded="true" signature="1160:7959" ph="..." />
           </folding>
         </state>
       </provider>
@@ -853,7 +853,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-          <folding />
+          <folding>
+            <marker date="1491303119000" expanded="true" signature="1066:1411" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +863,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1491304526000" expanded="true" signature="978:1178" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -904,18 +908,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/static/css/flexslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="5554" column="36" lean-forward="false" selection-start-line="5554" selection-start-column="36" selection-end-line="5554" selection-end-column="36" />
+        <state relative-caret-position="480">
+          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/flexslider.css">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="44" column="116" lean-forward="true" selection-start-line="44" selection-start-column="116" selection-end-line="44" selection-end-column="116" />
+        <state relative-caret-position="218">
+          <caret line="5554" column="24" lean-forward="false" selection-start-line="5554" selection-start-column="24" selection-end-line="5554" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6188">
+          <caret line="1721" column="37" lean-forward="false" selection-start-line="1721" selection-start-column="37" selection-end-line="1721" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
         </state>
       </provider>
