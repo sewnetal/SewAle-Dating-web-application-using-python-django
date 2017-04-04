@@ -2,75 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf21f21-70e4-452e-9f68-4e07432d28f4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/css/layout.css" afterPath="$PROJECT_DIR$/static/css/layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/1.gif" afterPath="$PROJECT_DIR$/static/images/1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/2.gif" afterPath="$PROJECT_DIR$/static/images/2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/3.gif" afterPath="$PROJECT_DIR$/static/images/3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/4.gif" afterPath="$PROJECT_DIR$/static/images/4.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/5.gif" afterPath="$PROJECT_DIR$/static/images/5.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/arrow.png" afterPath="$PROJECT_DIR$/static/images/arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/banner_1_bg.gif" afterPath="$PROJECT_DIR$/static/images/banner_1_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/banner_2_bg.gif" afterPath="$PROJECT_DIR$/static/images/banner_2_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/banner_bg.gif" afterPath="$PROJECT_DIR$/static/images/banner_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/bg.gif" afterPath="$PROJECT_DIR$/static/images/bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/body_bg_1.gif" afterPath="$PROJECT_DIR$/static/images/body_bg_1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/border.gif" afterPath="$PROJECT_DIR$/static/images/border.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/bottom_curve.gif" afterPath="$PROJECT_DIR$/static/images/bottom_curve.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/bottom_curve_inner.gif" afterPath="$PROJECT_DIR$/static/images/bottom_curve_inner.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/bullet.gif" afterPath="$PROJECT_DIR$/static/images/bullet.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/dating_tips_background.gif" afterPath="$PROJECT_DIR$/static/images/dating_tips_background.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/dating_tips_bg.gif" afterPath="$PROJECT_DIR$/static/images/dating_tips_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/footer_bg.gif" afterPath="$PROJECT_DIR$/static/images/footer_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-email.png" afterPath="$PROJECT_DIR$/static/images/ico-email.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-fax.png" afterPath="$PROJECT_DIR$/static/images/ico-fax.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-med-1.png" afterPath="$PROJECT_DIR$/static/images/ico-med-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-med-2.png" afterPath="$PROJECT_DIR$/static/images/ico-med-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-med-3.png" afterPath="$PROJECT_DIR$/static/images/ico-med-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-med-4.png" afterPath="$PROJECT_DIR$/static/images/ico-med-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-phone.png" afterPath="$PROJECT_DIR$/static/images/ico-phone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-support.png" afterPath="$PROJECT_DIR$/static/images/ico-support.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-terms.png" afterPath="$PROJECT_DIR$/static/images/ico-terms.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-twitter.png" afterPath="$PROJECT_DIR$/static/images/ico-twitter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico-website.png" afterPath="$PROJECT_DIR$/static/images/ico-website.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico1.png" afterPath="$PROJECT_DIR$/static/images/ico1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico2.png" afterPath="$PROJECT_DIR$/static/images/ico2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico3.png" afterPath="$PROJECT_DIR$/static/images/ico3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico4.png" afterPath="$PROJECT_DIR$/static/images/ico4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico5.png" afterPath="$PROJECT_DIR$/static/images/ico5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/ico6.png" afterPath="$PROJECT_DIR$/static/images/ico6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/join_border.gif" afterPath="$PROJECT_DIR$/static/images/join_border.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/li_border.gif" afterPath="$PROJECT_DIR$/static/images/li_border.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/logo.gif" afterPath="$PROJECT_DIR$/static/images/logo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/menu_bg.gif" afterPath="$PROJECT_DIR$/static/images/menu_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/menu_border.gif" afterPath="$PROJECT_DIR$/static/images/menu_border.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/middle_border.gif" afterPath="$PROJECT_DIR$/static/images/middle_border.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/middle_border_inner.gif" afterPath="$PROJECT_DIR$/static/images/middle_border_inner.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/partner_search_bg.gif" afterPath="$PROJECT_DIR$/static/images/partner_search_bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/photo-about.jpg" afterPath="$PROJECT_DIR$/static/images/photo-about.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/photo-contact.jpg" afterPath="$PROJECT_DIR$/static/images/photo-contact.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/pic_1.gif" afterPath="$PROJECT_DIR$/static/images/pic_1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/pic_2.gif" afterPath="$PROJECT_DIR$/static/images/pic_2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/pic_3.gif" afterPath="$PROJECT_DIR$/static/images/pic_3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/pic_4.gif" afterPath="$PROJECT_DIR$/static/images/pic_4.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/projectimg1.jpg" afterPath="$PROJECT_DIR$/static/images/projectimg1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/projectimg2.jpg" afterPath="$PROJECT_DIR$/static/images/projectimg2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/projectimg3.jpg" afterPath="$PROJECT_DIR$/static/images/projectimg3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/recent_border.gif" afterPath="$PROJECT_DIR$/static/images/recent_border.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/search_btn.gif" afterPath="$PROJECT_DIR$/static/images/search_btn.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/top_curve.gif" afterPath="$PROJECT_DIR$/static/images/top_curve.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/top_curve_inner.gif" afterPath="$PROJECT_DIR$/static/images/top_curve_inner.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/templates/dream-date/images/welcome_border.gif" afterPath="$PROJECT_DIR$/static/images/welcome_border.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ideas/settings/base.py" afterPath="$PROJECT_DIR$/ideas/settings/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ideas/settings/production.py" afterPath="$PROJECT_DIR$/ideas/settings/production.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ideas/urls.py" afterPath="$PROJECT_DIR$/ideas/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/about_us.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/about_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/contact_us.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/contact_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/index.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/privacy.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/privacy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/projects.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/services.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/dream-date/support.html" afterPath="$PROJECT_DIR$/pages/templates/dream-date/support.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/views.py" afterPath="$PROJECT_DIR$/pages/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/pages/home.html" afterPath="$PROJECT_DIR$/pages/templates/pages/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/web/about.html" afterPath="$PROJECT_DIR$/pages/templates/web/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/web/contact.html" afterPath="$PROJECT_DIR$/pages/templates/web/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/web/index.html" afterPath="$PROJECT_DIR$/pages/templates/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/web/login.html" afterPath="$PROJECT_DIR$/pages/templates/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/web/register.html" afterPath="$PROJECT_DIR$/pages/templates/web/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/templates/web/single.html" afterPath="$PROJECT_DIR$/pages/templates/web/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -109,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/web/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="810">
+              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/web/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="129" column="20" lean-forward="false" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -130,30 +82,52 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/dream-date/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/templates/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+            <state relative-caret-position="45">
+              <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/web/login.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/web/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profiles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/web/profiles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="175" column="6" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
+              <folding>
+                <element signature="e#7589#7595#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/web/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -173,15 +147,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/ideas/settings/production.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/pages/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/templates/testbase.html" />
-        <option value="$PROJECT_DIR$/pages/templates/pages/home.html" />
         <option value="$PROJECT_DIR$/pages/templates/dream-date/index.html" />
         <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/ideas/urls.py" />
+        <option value="$PROJECT_DIR$/ideas/settings/production.py" />
+        <option value="$PROJECT_DIR$/ideas/settings/base.py" />
+        <option value="$PROJECT_DIR$/pages/templates/web/index.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/pages/templates/pages/home.html" />
+        <option value="$PROJECT_DIR$/pages/templates/web/login.html" />
+        <option value="$PROJECT_DIR$/pages/templates/index.html" />
+        <option value="$PROJECT_DIR$/pages/templates/web/contact.html" />
+        <option value="$PROJECT_DIR$/pages/templates/web/about.html" />
+        <option value="$PROJECT_DIR$/pages/templates/web/register.html" />
+        <option value="$PROJECT_DIR$/pages/templates/web/single.html" />
+        <option value="$PROJECT_DIR$/pages/templates/web/profiles.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -236,60 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,14 +328,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/pages/templates/web" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static/css" />
     </key>
@@ -667,7 +599,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25468165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -728,20 +660,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ideas/settings/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,20 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <element signature="e#1587#1594#0#HTML" expanded="true" />
-            <element signature="e#2102#2109#0#HTML" expanded="true" />
-            <element signature="e#2517#2524#0#HTML" expanded="true" />
-            <element signature="e#2942#2949#0#HTML" expanded="true" />
-            <element signature="e#3025#3031#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -788,14 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1635">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -823,22 +725,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ideas/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -849,6 +735,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ideas/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ideas/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ideas/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="95" lean-forward="false" selection-start-line="28" selection-start-column="95" selection-end-line="28" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -856,6 +774,80 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="129" column="20" lean-forward="false" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/web/profiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="175" column="6" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
+          <folding>
+            <element signature="e#7589#7595#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
