@@ -1,55 +1,6 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Soulmate Bootstarp Website Template | Add Profile :: w3layouts</title>
-<link href="../../../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href="../../../static/css/style.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--webfont-->
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<!--dropdown-->
-<script src="../../../static/js/jquery-1.11.1.min.js"></script>
-<!--Animation-->
-<script src="../../../static/js/wow.min.js"></script>
-<link href="../../../static/css/animate.css" rel='stylesheet' type='text/css' />
-<script>
-	new WOW().init();
-</script>
-</head>
-<body>
-<div class="header wow fadeInUp" data-wow-delay="0.4s">
-	<div class='container'>
-		<div class="header_left">
-			<img src="../../../static/images/images/rate.png" alt=""/>
-		</div>
-		<div class="logo">
-			<a href="index.html"><img src="../../../static/images/images/logo.png" alt=""/>
-				<span>Soulmate</span>
-			</a>
-		</div>
-		<div class="header_right">
-			<ul class="header_user_info">
-			  <a class="login" href="login.html">
-				<li class="user_desc"><span class="m_1">Already user ? </span>Login</li>
-				<i class="user"> </i> 
-				<div class="clearfix"> </div>
-			  </a>
-			  <div class="clearfix"> </div>
-	    	</ul>
-			<a href="register.html" class="btn1 btn-1 btn1-1b">Sign Up</a>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-</div>
+{% extends "base.html" %}
+
+{%  block content %}
 <div class="profile_banner wow fadeInUpBig" data-wow-delay="0.4s">
 	<div class="container"> 
 	   <h3>Add Profile</h3>
@@ -66,7 +17,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </p>
        <div class="about_grid1">
           <div class="col-md-4 grid_1 wow lightSpeedIn" data-wow-delay="0.4s"> 
-          	 <img src="../../../static/images/images/pic5.jpg" class="img-responsive" alt=""/>
+          	 <img src="../../../static/images/pic5.jpg" class="img-responsive" alt=""/>
           	    <div class="btn-wrap bg_2">
                      <p class="text_2 bg_1 color_2">
                           <span>Step One</span>
@@ -78,7 +29,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
           </div>
           <div class="col-md-4 grid_1 wow rotateIn " data-wow-delay="0.4s"> 
-          	 <img src="../../../static/images/images/pic6.jpg" class="img-responsive" alt=""/>
+          	 <img src="../../../static/images/pic6.jpg" class="img-responsive" alt=""/>
           	    <div class="btn-wrap bg_2">
                      <p class="text_2 bg_1 color_2">
                           <span>Step Two</span>
@@ -90,7 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
           </div>
          <div class="col-md-4 grid_1 wow rotateInDownLeft " data-wow-delay="0.4s"> 
-          	 <img src="../../../static/images/images/pic7.jpg" class="img-responsive" alt=""/>
+          	 <img src="../../../static/images/pic7.jpg" class="img-responsive" alt=""/>
           	    <div class="btn-wrap bg_2">
                      <p class="text_2 bg_1 color_2">
                           <span>Step Three</span>
@@ -121,10 +72,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
            <div class="col-md-6">
            	 <div class="section group example">
 				<div class="col_1_of_2 span_1_of_2 wow slideInLeft" data-wow-delay="0.4s">
-				  <img src="../../../static/images/images/pic8.jpg" class="img-responsive" alt=""/>
+				  <img src="../../../static/images/pic8.jpg" class="img-responsive" alt=""/>
  				</div>
 				<div class="col_1_of_2 span_1_of_2 wow slideInRight" data-wow-delay="0.4s">
-				  <img src="../../../static/images/images/pic9.jpg" class="img-responsive" alt=""/>
+				  <img src="../../../static/images/pic9.jpg" class="img-responsive" alt=""/>
  				</div>
 				<div class="clearfix"></div>
 		    </div>
@@ -152,27 +103,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	  </div>
 	</div>
 </div>
-<div class="footer">
-	<div class="container">
-		<div class="cssmenu wow fadeInLeft" data-wow-delay="0.4s">
-		  <ul>
-			<li><a href="#">Home</a></li> 
-			<li><a href="about.html">About</a></li>
-			<li class="active"><a href="profiles.html">Add Profile</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		  </ul>
-	    </div>
-	    <div class="copy wow fadeInUp" data-wow-delay="0.4s">
-			<p>&copy; 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
-		</div>
-		<div class="social wow fadeInRight" data-wow-delay="0.4s"> 
-			<ul class="footer_social">
-			  <li><a href="#"> <i class="fb"> </i> </a></li>
-			  <li><a href="#"> <i class="tw"> </i> </a></li>
-		   </ul>
-		</div>
-	    <div class='clearfix'> </div>
-	</div>
-</div>
-</body>
-</html>		
+{% endblock content %}

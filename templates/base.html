@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Soulmate Bootstarp Website Template | Login :: w3layouts</title>
+<title>Soulmate Bootstarp Website Template | Home </title>
 <link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="../static/css/style.css" rel='stylesheet' type='text/css' />
@@ -12,17 +12,73 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--popup picture-->
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="../static/js/jquery.mobile-1.4.5.min.js"></script>
 <!--dropdown-->
 <script src="../static/js/jquery-1.11.1.min.js"></script>
+<script src="../static/js/jquery.easydropdown.js"></script>
+<!-- FlexSlider -->
+<link href="../static/css/flexslider.css" rel='stylesheet' type='text/css' />
+							  <script defer src="../static/js/jquery.flexslider.js"></script>
+							  <script type="text/javascript">
+								$(function(){
+								  SyntaxHighlighter.all();
+								});
+								$(window).load(function(){
+								  $('.flexslider').flexslider({
+									animation: "slide",
+									start: function(slider){
+									  $('body').removeClass('loading');
+									}
+								  });
+								});
+							  </script>
+<!-- FlexSlider -->
+<!--Animation-->
+<script src="../static/js/wow.min.js"></script>
+<link href="../static/css/animate.css" rel='stylesheet' type='text/css' />
+<script>
+	new WOW().init();
+</script>
 </head>
-<div class="header">
+{% if request.user.is_authenticated %}
+<div class="header wow fadeInUp" data-wow-delay="0.4s">
 	<div class='container'>
 		<div class="header_left">
 			<img src="../static/images/rate.png" alt=""/>
 		</div>
 		<div class="logo">
 			<a href="/index.html"><img src="../static/images/logo.png" alt=""/>
-				<span>Soulmate</span>
+				<span>sewale</span>
+			</a>
+		</div>
+		<div class="header_right">
+			<ul class="header_user_info">
+			<a  href="/single/{{ user.pk }}">
+				<span>Welcome {{user.first_name }}</span>
+			</a>
+               <p></p>
+			  <a class="login" href="/logout">
+				<li class="user_desc"><span class="m_1"></span>logout</li>
+				<i class="user"> </i>
+				<div class="clearfix"> </div>
+			  </a>
+			  <div class="clearfix"> </div>
+	    	</ul>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+{% else %}
+    <div class="header wow fadeInUp" data-wow-delay="0.4s">
+	<div class='container'>
+		<div class="header_left">
+			<img src="../static/images/rate.png" alt=""/>
+		</div>
+		<div class="logo">
+			<a href="/index.html"><img src="../static/images/logo.png" alt=""/>
+				<span>SewAle</span>
 			</a>
 		</div>
 		<div class="header_right">
@@ -39,8 +95,10 @@
 		<div class="clearfix"> </div>
 	</div>
 </div>
+{% endif %}
   <body>
     {%  block content %}
+
 
     {% endblock  %}
 
@@ -50,7 +108,7 @@
 		  <ul>
 			<li class="active"><a href="/index.html">Home</a></li>
 			<li><a href="/about.html">About</a></li>
-			<li><a href="/register.html">Add Profile</a></li>
+			<li><a href="/profiles.html">Add Profile</a></li>
 			<li><a href="/contact.html">Contact</a></li>
 		  </ul>
 	    </div>
@@ -66,5 +124,18 @@
 	    <div class='clearfix'> </div>
 	</div>
 </div>
+    <head>
+  <script>
+function validateForm() {
+    var x = document.forms["registration_form"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+</head>
   </body>
 </html>

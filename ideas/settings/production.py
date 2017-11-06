@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = '73f314a0b$q@usos-a8g*k#71fq+nvv%z7j@9gtlug-m34gb6e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['dateaddis.herokuapp.com','.addisdate.com','addismist.herokuapp.com','0.0.0.0']
 
@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'pages',
+    'account',
+
 ]
 
 
@@ -108,6 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
@@ -122,6 +126,8 @@ USE_L10N = True
 USE_TZ = True
 
 
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
@@ -131,6 +137,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
+    'live-static/media-root',
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, "live-static", "static-root")
@@ -139,6 +146,6 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 #STATIC_ROOT = "/home/cfedeploy/webapps/cfehome_static_root/"
 
-MEDIA_URL = "/media/"
+MEDIA_URL = "/live-static/media-root/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "live-static", "media-root")

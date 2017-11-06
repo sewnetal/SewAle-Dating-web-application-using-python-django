@@ -133,7 +133,7 @@ span.m_1{
 	color:#3a5778;
 }
 .banner{
-	background: url(../images/banner.jpg) no-repeat center top;
+	background: url(../images/frontgirl.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1870,4 +1870,19 @@ h4.m_4, h4.recent {
 .span_1_of_profile {
 	width:100%;
 }
+}
+.fullscreen:-webkit-full-screen {
+	width: auto !important;
+	height: auto !important;
+	margin:auto !important;
+}
+.fullscreen:-moz-full-screen {
+	width: auto !important;
+	height: auto !important;
+	margin:auto !important;
+}
+.fullscreen:-ms-fullscreen {
+	width: auto !important;
+	height: auto !important;
+	margin:auto !important;
 }

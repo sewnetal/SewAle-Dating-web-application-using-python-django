@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
+    'account',
     'pages',
+
 ]
 
 MIDDLEWARE = [
@@ -103,6 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
@@ -121,11 +125,12 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
+    'live-static/media-root',
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, "live-static", "static-root")
 
 
-MEDIA_URL = "/media/"
+MEDIA_URL = "/live-static/media-root/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "live-static", "media-root")

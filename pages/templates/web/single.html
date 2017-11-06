@@ -2,7 +2,7 @@
 
 {%  block content %}
 
-
+{% load static %}
 <div class="profile_banner">
 	<div class="container"> 
 	   <h3>Profile</h3>
@@ -13,7 +13,29 @@
 		<div class="col-md-8 profile_left">
 			<div class="lsidebar span_1_of_profile">
 			  <div class="grid_4">
-			    <img src="../../../static/images/images/pic1.jpg" class="img-responsive" alt=""/>
+                  <script>
+                function makeFullScreen() {
+                 var divObj = document.getElementById("theImage");
+               //Use the specification method before using prefixed versions
+              if (divObj.requestFullscreen) {
+                divObj.requestFullscreen();
+              }
+              else if (divObj.msRequestFullscreen) {
+                divObj.msRequestFullscreen();
+              }
+              else if (divObj.mozRequestFullScreen) {
+                divObj.mozRequestFullScreen();
+              }
+              else if (divObj.webkitRequestFullscreen) {
+                divObj.webkitRequestFullscreen();
+              } else {
+                console.log("Fullscreen API is not supported");
+              }
+
+            }
+     </script>
+
+			    <img id="theImage"  src= "{{ photo_test }}" class="fullscreen" height="150" width="228" alt="" onClick = "makeFullScreen()"/>
 				<ul class="category_desc1">
 				   <li class="cate_head">1.100 votes</li>
 				   <li class="cate_right">
@@ -28,12 +50,12 @@
 			   </div>
 			</div>
 			<div class="cont span_2_of_profile">
-				<h4><a href="#">Leonardo ,</a>Manager-usa</h4>	
+				<h4><a href="#"> {{user_profile.first_name }} {{user_profile.last_name }} </a></h4>
 				<table class="profile-fields">
 					<tbody>
 									<tr>
 							<th>Gender</th>
-							<td>man</td>
+							<td>{{ user_profile.user.gender }}</td>
 						</tr>
 												<tr>
 							<th>Age</th>
@@ -41,7 +63,7 @@
 						</tr>			
 						<tr>
 							<th>Country</th>
-							<td>Usa</td>
+							<td>{{ user_profile.user.country}}</td>
 						</tr>
 						<tr>
 							<th>City</th>
@@ -49,18 +71,19 @@
 						</tr>
 					</tbody>
 				</table>
-	        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, </p>
-			<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
+	        <p>{{ user_profile.user.bio }}</p>
+
 		    </div>
 			<div class="clearfix"></div>	
 		</div>
 	    <div class="col-md-4">
 		  <h4 class="m_4">Top Members</h4>
 			<ul id="flexiselDemo3">
-			  <li><img src="../../../static/images/images/pic2.jpg" class="img-responsive" alt=""/></li>
-			  <li><img src="../../../static/images/images/pic1.jpg" class="img-responsive" alt=""/></li>
-			  <li><img src="../../../static/images/images/pic1.jpg" class="img-responsive" alt=""/></li>
+			  <li><img src="../../../static/images/pic2.jpg" class="img-responsive" alt=""/></li>
+			  <li><img src="../../../static/images/pic1.jpg" class="img-responsive" alt=""/></li>
+			  <li><img src="../../../static/images/pic1.jpg" class="img-responsive" alt=""/></li>
 		   </ul>
+
 				    <script type="text/javascript">
 					 $(window).load(function() {
 						$("#flexiselDemo3").flexisel({
@@ -91,11 +114,14 @@
 				   <script type="text/javascript" src="../../../static/js/jquery.flexisel.js"></script>
 				   <h4 class="recent">Recently Active user Groups</h4>
 				   <ul id="flexiselDemo1">
-						<li><img src="../../../static/images/images/pic1.jpg" /><div class="grid-flex"><a href="#">Syenergy 2mm</a><p>0 friend</p></div></li>
-						<li><img src="../../../static/images/images/pic2.jpg" /><div class="grid-flex"><a href="#">Surf Yoke</a><p>10 friends</p></div></li>
-						<li><img src="../../../static/images/images/pic3.jpg" /><div class="grid-flex"><a href="#">Salty Daiz</a><p>1 friend</p></div></li>
-						<li><img src="../../../static/images/images/pic1.jpg" /><div class="grid-flex"><a href="#">Cheeky Zane</a><p>0 friend</p></div></li>
-						<li><img src="../../../static/images/images/pic2.jpg" /><div class="grid-flex"><a href="#">Synergy</a><p>0 friend</p></div></li>
+                       {% for instance in all_user %}
+                    <li>
+                        <a href="/single/{{ instance.pk }}">
+                        <img src="/live-static/media-root/{{instance.user.photo}}" height="75" width="100"alt=" {{ instance.first_name }}"
+                             title = "{{ instance.first_name }}"/>
+                        </a>
+                    </li>
+                       {% endfor %}
 				     </ul>
 				    <script type="text/javascript">
 					 $(window).load(function() {
@@ -103,7 +129,7 @@
 							visibleItems: 3,
 							animationSpeed: 1000,
 							autoPlay: true,
-							autoPlaySpeed: 3000,    		
+							autoPlaySpeed: 3000,
 							pauseOnHover: true,
 							enableResponsiveBreakpoints: true,
 					    	responsiveBreakpoints: { 

@@ -19,14 +19,15 @@
 			 <div class="col-md-6 login-right">
 			  	<h3>REGISTERED CUSTOMERS</h3>
 				<p>If you have an account with us, please log in.</p>
-				<form>
+                 <h3>{{ form.non_field_errors }}</h3>
+				<form action="/login.html" method="post">{% csrf_token %}
 				  <div>
 					<span>Email Address<label>*</label></span>
-					<input type="text"> 
+					<input type="email" name="username" placeholder="Your email address" required >
 				  </div>
 				  <div>
 					<span>Password<label>*</label></span>
-					<input type="text"> 
+					<input type="password" name="password" placeholder="Your password">
 				  </div>
 				  <a class="forgot" href="#">Forgot Your Password?</a>
 				  <input type="submit" value="Login">
