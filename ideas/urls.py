@@ -24,8 +24,9 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     url(r'^user/', include('account.urls')),
-    url(r'^$', HomeView.as_view(), name='home'),
-    url(r'^index.html', HomeView.as_view(), name='home'),
+    #url(r'^$', HomeView.as_view(), name='home'),
+    url(r'^index.html', home_view, name='register'),
+    url(r'^$', home_view, name='home'),
     url(r'^login.html', login_view, name = 'login'),
     url(r'^logout', logout_view, name = 'logout'),
     url(r'^register.html', register_view, name='register'),

@@ -51,11 +51,13 @@ def register_view(request):
 
         profile.save()
         #login(request,user)
+        return HttpResponseRedirect("login.html")
 
     return render(request, "web/register.html",{"form1": form2, 'profile_form': profile_form})
 def logout_view(request):
     logout(request)
     return render(request,"web/index.html")
+
 @login_required(login_url='/login.html')
 def profile_view(request,pk):
     data = User.objects.all()
@@ -64,7 +66,9 @@ def profile_view(request,pk):
     return render(request,'web/single.html', {'photo_test': photo_photo,'user_profile': user_profile,'all_user':data,
                                                })
 
-
+def home_view(request):
+    data = User.objects.all()
+    return render(request,'web/index.html', {'all_user':data,})
 
 
 

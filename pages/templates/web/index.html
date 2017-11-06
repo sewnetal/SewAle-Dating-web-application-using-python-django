@@ -74,47 +74,12 @@
 <div class="content_bottom">
 	<div class="container">
 	  <div class="box1">
-		<div class="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
-		  <div class="grid_4"><a href="single.html">
-			<h4><span class="m_3">Leonardo , </span> Manager-usa</h4>
-			<img src="../../../static/images/pic1.jpg" class="img-responsive" alt=""/>
-			<ul class="category_desc">
-			   <li class="cate_head">Based in 1.100 votes</li>
-			   <li class="cate_right">
-			   	 <ul class="list1">
-			   	    <li><i class="heart"> </i></li>
-			   	    <li><i class="heart"> </i></li>
-			   	    <li><i class="heart"> </i></li>
-			   	    <li><i class="heart"> </i></li>
-			   	 </ul>
-			   </li>
-			   <div class="clearfix"> </div>
-			</ul>
-			<h5>Full Profile</h5>
-		</a> </div>
-		</div>
-		<div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-		   <div class="grid_4"><a href="single.html">
-			<h4><span class="m_3">luke ,</span>engineer-usa</h4>
-			<img src="../../../static/images/pic2.jpg" class="img-responsive" alt=""/>
-			<ul class="category_desc">
-			   <li class="cate_head">Based in 956 votes</li>
-			   <li class="cate_right">
-			   	 <ul class="list1">
-			   	   <li><i class="heart"> </i></li>
-			   	   <li><i class="heart"> </i></li>
-			   	   <li><i class="heart"> </i></li>
-			   	 </ul>
-			   </li>
-			   <div class="clearfix"> </div>
-			</ul>
-			<h5>Full Profile</h5>
-		  </a></div>
-	    </div>
+         {% for instance in all_user %}
 		<div class="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
-		  <div class="grid_4"><a href="single.html">
+		  <div class="grid_4">
+              <a href="single.html">
 			<h4><span class="m_3">max ,</span>security-usa</h4>
-			<img src="../../../static/images/pic3.jpg" class="img-responsive" alt=""/>
+			<img src="/live-static/media-root/{{instance.user.photo}}" style="width:400px;height:300px;" class="img-responsive" alt=""/>
 			<ul class="category_desc">
 			   <li class="cate_head">Based in 900 votes</li>
 			   <li class="cate_right">
@@ -127,10 +92,15 @@
 			   <div class="clearfix"> </div>
 			</ul>
 			<h5>Full Profile</h5>
-		  </a></div>
+		  </a>
+          </div>
+
 	    </div>
+          {% endfor %}
+
 		<div class="clearfix"> </div>
 	  </div>
+
 	  <div class='span1'>
 		  <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro1"}'>
 		    <option value="0">More Profiles</option>	
