@@ -48,7 +48,10 @@ def register_view(request):
         print(profile.DOB)
         if 'photo' in request.FILES:
             profile.photo = request.FILES ['photo']
-
+        elif profile.gender == 'male':
+            profile.photo = 'profile_images/profile-default-male.png'
+        elif profile.gender == 'female':
+            profile.photo = 'profile_images/user_profile_female.jpg'
         profile.save()
         #login(request,user)
         return HttpResponseRedirect("login.html")

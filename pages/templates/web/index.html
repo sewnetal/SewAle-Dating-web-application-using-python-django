@@ -77,11 +77,11 @@
          {% for instance in all_user %}
 		<div class="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
 		  <div class="grid_4">
-              <a href="single.html">
-			<h4><span class="m_3">max ,</span>security-usa</h4>
-			<img src="/live-static/media-root/{{instance.user.photo}}" style="width:400px;height:300px;" class="img-responsive" alt=""/>
-			<ul class="category_desc">
-			   <li class="cate_head">Based in 900 votes</li>
+              <a href="single/{{ instance.pk }}">
+			<h4><span class="m_3">{{ instance.first_name }} ,</span>security-usa</h4>
+			<img src="/live-static/media-root/{{instance.user.photo}}" style="width:200px;height:150px;" class="img-responsive" alt=""/>
+			<ul style="width:200px;height:30px;" class="category_desc">
+
 			   <li class="cate_right">
 			   	 <ul class="list1">
 			   	    <li><i class="heart"> </i></li>
