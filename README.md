@@ -1,4 +1,5 @@
 # ideas
 Dataing web application using python django framwork<br>
 
-site is sstill in progress https://dateaddis.herokuapp.com 
+most functionalities are done but sill in progress <br>
+https://dateaddis.herokuapp.com 
